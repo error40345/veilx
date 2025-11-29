@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>VeilX - Encrypted NFT Marketplace</title>
+    <meta name="description" content="The first NFT marketplace where pricing is transparent but traders are invisible. Trade NFTs with complete privacy using Zama FHE encryption." />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="VeilX - Encrypted NFT Marketplace" />
+    <meta property="og:description" content="Trade NFTs with complete privacy. Public prices, encrypted identities." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Zama FHEVM Relayer SDK v0.3.0-5 (FHEVM v0.9) -->
+    <script src="https://cdn.zama.org/relayer-sdk-js/0.3.0-5/relayer-sdk-js.umd.cjs"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (typeof global === 'undefined') {
+        window.global = window;
+      }
+      if (typeof Buffer === 'undefined') {
+        window.Buffer = { isBuffer: () => false };
+      }
+      if (typeof process === 'undefined') {
+        window.process = { env: {} };
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

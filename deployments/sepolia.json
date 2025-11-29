@@ -1,0 +1,11 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployer": "0xc1436ED728cF8e9765aF580A87786d47C2F27631",
+  "nftAddress": "0x91C94eA6c08c762C5475d2037bf45F3B8c9C80D9",
+  "marketplaceAddress": "0xE8660238894c8a594844A8bB4efD760c6760D7be",
+  "collectionFactoryAddress": "0x15bc27140f84fFcDc994C4c2878a7d8A27FE76D3",
+  "timestamp": "2025-11-27T16:13:02.429Z",
+  "privacyPoolAddress": "0xD6295bd696734DbA6455E3Be2e10616C27F72f7F",
+  "privacyPoolDeployedAt": "2025-11-28T15:14:49.670Z"
+}
