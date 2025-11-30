@@ -19,7 +19,7 @@ VeilX is a **fully functional NFT marketplace** that leverages **Zama's Fully Ho
 
 ---
 
-## Live Demo
+## Live Demo 
 
 ### Try It Yourself
 
@@ -59,8 +59,8 @@ These real transactions demonstrate that NO addresses are exposed:
 
 ## Table of Contents
 
-- [Demo Video](#demo-video)
-- [Live Demo](#live-demo)
+- [Demo Video] ( https://drive.google.com/file/d/1tliH9Ro30bCK4aJfu31FgljCb0fnU61i/view) ) 
+- [Live Demo]((https://veilx.beauty/))
 - [Problem Statement](#problem-statement)
 - [Solution: VeilX](#solution-veilx)
 - [Architecture](#architecture)
